@@ -1,11 +1,12 @@
 /*
-A program that calculates the square root of a number with dynamic recurrence relation
-
+A program that calculates the square root of a number with recurrence relation
+Read more @ https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
     - Babylonian method:
         * calculating √S *
         f( n + 1 ) = ( f() + S / f() ) / 2
         n --> ∞ :::: f( n ) ---> √S
         f(0) --> m ∈ N (ex. 10)
+Coded by: AmirMohammad Biuki
 */
 
 #include <iostream>
