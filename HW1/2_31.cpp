@@ -11,6 +11,7 @@
 using namespace std;
 
 /* 
+ * Mesaal:
  * total km driven per day : 16
  * cost per gallon : 1200
  * average km per gallon : 2   -> 8 gallon mikhad -> 8 * 1200 = 96000 t
@@ -19,14 +20,14 @@ using namespace std;
  * 
  * sum = 96000 + 5000 + 10000 = 111000 t
  * 
- * 1 per week : week, 1 month, 3 month, 6 month, 1 year, 5 year, 10 year
- * 3 per week : week, 1 month, 3 month, 6 month, 1 year, 5 year, 10 year
- * 5 per week : week, 1 month, 3 month, 6 month, 1 year, 5 year, 10 year
+ * 1 per week : week, 1 month, 1 year
+ * 3 per week : week, 1 month, 1 year
+ * 5 per week : week, 1 month, 1 year
  * 
  * if 1 -> kolle poolo baas bede
  * if n -> kolle pool taghsim bar n -> sahme har nafar
  * 
- * saved money : 1 nafari - sahme khodam dar n nafar
+ * saved money : kol - kol/n
  * 
  */
 
@@ -65,7 +66,7 @@ public:
     float saveCost() const
     {
         //return individualCost() - individualCost() / getPassengers();
-        return (individualCost() * ( 1 - 1 / getPassengers() )); //WHY NOT?!!? :== individualCost
+        return (individualCost() * ( 1 - 1 / getPassengers() ));
     }
     
     //*************************
