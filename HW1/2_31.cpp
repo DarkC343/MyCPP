@@ -3,7 +3,7 @@
  * 
  * Student name: AmirMohammad Biuki
  * 
- * Exercise name: 2.30
+ * Exercise name: 2.31
  * 
  */
 #include <iostream>
