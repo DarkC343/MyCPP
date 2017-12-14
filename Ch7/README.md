@@ -11,7 +11,7 @@
 * For making every elements of the array to zero *everywhere* in the code, you should follow this method:
 ```c++
 for ( size_t j = 0; j < s.size(); j++ )
-s[ j ] == 0;
+	s[ j ] == 0;
 ```
 
 * You can assign a value for every elements of the array in definition by using curly braces ( { ,,, } ).
