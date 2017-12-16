@@ -1,4 +1,4 @@
-# Important Notes from Deitel
+# Important notes from Deitel
 
 * size_t == unsigned int
 
