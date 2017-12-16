@@ -21,7 +21,7 @@ for ( size_t j = 0; j < s.size(); j++ )
 
 
 * To make unpredictable and strong random numbers use these functions from <random> library.
-```
+```c++
 default_random_engine engine( static_cast< size_t >( time(0) ) );
 uniform_int_distribution< size_t > randomInt( 1, 6 );
 ```
@@ -38,7 +38,8 @@ like when we don't need the index number ( counter-control variable ).
 * Using counter-controlled for statement to print out or modify every elements of an array is not recommended because it would be cumbersome. Use range-based for statement instead.
 
 * Range-based for statement structure
-``` for ( rangeVariableDecleration : expression )
+```c++
+for ( rangeVariableDecleration : expression )
 	statement
 ```
 
