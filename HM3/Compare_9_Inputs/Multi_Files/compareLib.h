@@ -1,5 +1,3 @@
-// Name: AmirMohammad Biuki
-// Student No. : 962164023
 #include <iostream>
 using namespace std;
 
