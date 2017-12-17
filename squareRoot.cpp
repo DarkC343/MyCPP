@@ -6,7 +6,7 @@ Read more @ https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Baby
         f( n + 1 ) = ( f() + S / f() ) / 2
         n --> ∞ :::: f( n ) ---> √S
         f(0) --> m ∈ N (ex. 10)
-Coded by: AmirMohammad Biuki
+Coded by: DarkC343
 */
 
 #include <iostream>

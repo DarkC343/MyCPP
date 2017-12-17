@@ -6,7 +6,7 @@ Read more @ https://en.wikipedia.org/wiki/Fibonacci_number#List_of_Fibonacci_num
     f(n) = f(n-1) + f(n-2)
     n:0 OR 1 -----> 1
     
-Coded by: AmirMohammad Biuki    
+Coded by: DarkC343
 */
 
 #include <iostream>
