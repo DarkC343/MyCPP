@@ -53,3 +53,14 @@ for ( rangeVariableDecleration : expression )
 
 * Automatic storage duration variables and arrays are recreated and reinitialized for each function call.
 
+* We have two types of searching methods from algorithm library:
+    1) using *linear* search for *unsorted array* with lower speed
+    2) using *binary* search for *sorted array in ascending order* whith higher speed
+
+* To sort an array in *ascending order* we use sort() function from algorithm library. It gets 2 arguments which is begin() and end() function.
+
+* Ascending order for integers means 0-9 and for strings means A-Z then a-z.
+
+* We should specify all arguments of shortened if (i.e expressin ? "ok" : "not ok"). We can't omit either first or second arguemnt.
+
+* We should use parentheses () to use shortened if in cout (i.e cout << expression ? "ok" : "not ok" is not correct because of precendence logic error).
